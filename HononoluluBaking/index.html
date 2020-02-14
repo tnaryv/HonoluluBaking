@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div id="header" class="header">
+        <a href="#clients" id="ahref">clients</a>
+        <a href="#contact" id="ahref">contact</a>
+        <a href="#about" id="ahref">about</a>
+    </div>
+    <div id="transparent"></div>
+    <div id="frontContainer">
+        <div id="frontPic"></div>
+    </div>
+    <div id="logo"></div>
+
+    <div id="about">
+        <div id="aboutDescrip">
+            <h1 id="welcome">welcome</h1>
+            <p id="descrip">
+                It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like
+                readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                their default model text, and a search for 'lorem ipsum' will uncover many web sites still in
+                their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on
+                purpose (injected humour and the like).
+            </p>
+        </div>
+        <div id="aboutPic"></div>
+    </div>
+    <div id="approves"></div>
+    <div id="container">
+        <div id="blueberryPic"></div>
+        <div id="blueberryDescrip">
+
+        </div>
+        
+        <div id="orangePic"></div>
+        <div id="orangeDescrip">
+                
+        </div>
+
+        <div id="cookiesPic"></div>
+        <div id="cookiesDescrip">
+                
+        </div>
+    </div>
+    <script>
+        var myNav = document.getElementById('ahref');
+        window.onscroll = function() {
+            "use strict";
+            if(document.body.scrollTop >= 1000) {
+                myNav.classList.add("nav-light");
+                myNav.classList.remove("nav-dark");
+            }
+            else {
+                myNav.classList.add("nav-light");
+                myNav.classList.remove("nav-dark");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f6f3ef;
+}
+#header {
+    width: 100vw;
+    height: 8vh;
+    overflow: hidden;
+    position: fixed;
+}
+.header a {
+    float: right;
+    color: #ab906d;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px 0px 30px;
+    font-size: 2.5vh;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 3px;
+}
+
+#transparent {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+#frontContainer {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: lightblue;
+    position: absolute;
+    z-index: -2;
+}
+#frontPic {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("oatCake.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#logo {
+    width: 35vw;
+    height: 69vh;
+    background-image: url("logo.png");
+    background-position: cover;
+    background-size: cover;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 32.5vw;;
+}
+#about {
+    width: 100vw;
+    height: 70vh;
+    position: absolute;
+    margin-top: 100vh;
+    z-index: -2;
+}
+#aboutDescrip {
+    width: 30vw;
+    height: 50vh;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    float: left;
+}
+#welcome {
+    font-family: 'Alegreya Sans SC';
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+}
+#descrip {
+    font-family: 'Anaheim';
+    text-align: center;
+    font-size: 1cw;
+}
+#aboutPic {
+    width: 20vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    float: right;
+    margin-right: 20vw;
+    background-image: url("oatCake2.png");
+    background-size: cover;
+    background-position: center;
+}
+#approves {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 170vh;
+    margin-bottom: 5vh;
+    position: absolute;
+    background-color: #ede6de;
+    z-index: -2;
+}
+#container {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 195vh;
+    position: absolute;
+    margin-bottom: 5vh;
+    z-index: -2;
+}
+#blueberryPic {
+    width: 30vw;
+    height: 45vh;
+    float: left;
+    margin-left: 5vw;
+    background-image: url("blueberries.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+#blueberryDescrip {
+    width: 34vw;
+    height: 45vh;
+    -webkit-clip-path: polygon(
+    5% 0%,
+    100% 0%,
+    100% 100%,
+    5% 100%,
+    5% 55%,
+    0% 50%,
+    5% 45%
+    );
+    background-color: #ede6de;
+    margin-left: 33.3vw;
+    position: absolute;
+}
+#orangePic {
+    width: 30vw;
+    height: 45vh;
+    position: absolute;
+    background-image: url("orange.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 65vw;
+}
+#cookiesDescrip {
+    width: 31.57vw;
+    height: 45vh;
+    -webkit-clip-path: polygon(
+        0% 0%,
+        95% 0%,
+        95% 45%,
+        100% 50%,
+        95% 55%,
+        95% 100%,
+        0% 100%
+    );
+    background-color: #ede6de;
+    margin-left: 5vw;
+    margin-top: 45vh;
+    position: absolute;
+}
+#cookiesPic {
+    width: 30vw;
+    height: 45vh;
+    float: left;
+    background-image: url("cookies.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 35vw;
+}
+#orangeDescrip {
+    width: 30vw;
+    height: 48vh;
+    float: right;
+    margin-top: 42vh;
+    margin-right: 5vw;
+    -webkit-clip-path: polygon(
+        0% 6%,
+        45% 6%,
+        50% 0%,
+        55% 6%,
+        100% 6%,
+        100% 100%,
+        0% 100%
+    );
+    background-color: #ede6de;
+
+}
+
