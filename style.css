@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #f6f3ef;
+    overflow-x: hidden;
 }
 #header {
     width: 100vw;
@@ -11,7 +12,7 @@ body {
 }
 .header a {
     float: right;
-    color: #ab906d;
+    color: rgb(171, 144, 109);
     display: block;
     text-align: center;
     text-decoration: none;
@@ -26,7 +27,7 @@ body {
     height: 100vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
+    z-index: -2;
 }
 #frontContainer {
     width: 100vw;
@@ -34,7 +35,7 @@ body {
     overflow: hidden;
     background-color: lightblue;
     position: absolute;
-    z-index: -2;
+    z-index: -3;
 }
 #frontPic {
     width: 100vw;
@@ -52,7 +53,9 @@ body {
     background-size: cover;
     position: absolute;
     margin-top: 15vh;
-    margin-left: 32.5vw;;
+    margin-left: 32.5vw;
+    z-index: -1;
+
 }
 #about {
     width: 100vw;
@@ -77,7 +80,7 @@ body {
 #descrip {
     font-family: 'Anaheim';
     text-align: center;
-    font-size: 1cw;
+    font-size: 1vw;
 }
 #aboutPic {
     width: 20vw;
@@ -93,16 +96,44 @@ body {
 #approves {
     width: 100vw;
     height: 20vh;
-    margin-top: 170vh;
+    margin-top: 180vh;
     margin-bottom: 5vh;
     position: absolute;
-    background-color: #ede6de;
     z-index: -2;
+}
+#approvesDescrip {
+    width: 20vw;
+    height: 6vh;
+    margin-top: 7vh;
+    font-family: 'Alegreya Sans SC';
+    text-align: center;
+    font-size: 1.5vw;
+    letter-spacing: 3px;
+    margin-left: 20vw;
+    float: left;
+}
+#firstApproves {
+    width: 8vw;
+    height: 20vh;
+    background-image: url("USDA&FDA.png");
+    background-size: cover;
+    background-position: center; 
+    float: left;
+    margin-left: 7vw;
+}
+#secondApproves {
+    width: 17vw;
+    height: 20vh;
+    background-image: url("Military&state&SQF2.png");
+    background-size: cover;
+    background-position: center; 
+    float: left;
+    margin-left: 8vw;
 }
 #container {
     width: 100vw;
     height: 90vh;
-    margin-top: 195vh;
+    margin-top: 210vh;
     position: absolute;
     margin-bottom: 5vh;
     z-index: -2;
@@ -183,6 +214,144 @@ body {
         0% 100%
     );
     background-color: #ede6de;
+}
+#employees {
+    width: 100vw;
+    height: 230vh;
+    margin-top: 310vh;
+    position: absolute;
+    z-index: -2;
+}
+#ohana {
+    width: 50vw;
+    height: 35vh;
+    background-image: url("ohana.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 25vw;
+}
+#groupPic {
+    width: 50vw;
+    height: 50vh;
+    background-image: url("groupPic.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    margin-left: 2.5vw;
+    float: left;
+}
+#aboutGroupPic {
+    width: 42.5vw;
+    height: 50vh;
+    margin-right: 2.5vw;
+    float: right;
+    font-family: 'Anaheim';
+    text-align: center;
+    font-size: 1vw;
+    line-height: 30px;
+}
+.grouping {
+    width: 100vw;
+    height: 40vh;
+    float: left;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+}
+#top {
+  margin-top: 10vh; 
+}
+#circle1 {
+    width: 40vw;
+    height: 40vh;
+    -webkit-clip-path: circle(30%);
+    background-image: url("pic1.jpeg");
+    background-size: 80%;
+    background-position: top;
+
 
 }
-
+#statement1 {
+    width: 50vw;
+    height: 19vw;
+    -webkit-clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        90% 50%,
+        100% 100%,
+        0% 100%
+    );
+    background-color: #ede6de;
+    float: right;
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: 20vw;
+    
+}
+#circle2 {
+    width: 40vw;
+    height: 40vh;
+    -webkit-clip-path: circle(30%);
+    background-color: lightblue;
+    background-image: url("pic2.jpeg");
+    background-size: 80%;
+    background-position: top;
+}
+#statement2 {
+    width: 50vw;
+    height: 19vw;
+    -webkit-clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        90% 50%,
+        100% 100%,
+        0% 100%
+    );
+    background-color: #ede6de;
+    float: right;
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: 20vw;
+}
+#circle3 {
+    width: 40vw;
+    height: 40vh;
+    -webkit-clip-path: circle(30%);
+    background-color: lightblue;
+    background-image: url("pic3.jpeg");
+    background-size: 80%;
+    background-position: top;
+}
+#statement3 {
+    width: 50vw;
+    height: 19vw;
+    -webkit-clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        90% 50%,
+        100% 100%,
+        0% 100%
+    );
+    background-color: #ede6de;
+    float: right;
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: 20vw;
+}
+#contact {
+    width: 100vw;
+    height: 30vh;
+    margin-top: 545vh;
+    background-color: #ede6de;
+    position: absolute;
+}
+#contactTop {
+    width: 30vw;
+    height: 10vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+#contactHeading {
+    font-family: 'Alegreya Sans SC';
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+}
