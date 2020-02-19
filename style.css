@@ -240,9 +240,10 @@ body {
     float: left;
 }
 #aboutGroupPic {
-    width: 42.5vw;
+    width: 30vw;
     height: 50vh;
-    margin-right: 2.5vw;
+    margin-right: 11vw;
+    margin-top: 7vh;
     float: right;
     font-family: 'Anaheim';
     text-align: center;
